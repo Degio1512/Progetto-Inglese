@@ -191,3 +191,28 @@ body{
                 -5px 0 0 rgb(0, 38, 255);
     transition-delay: 0s,0s,0.5s,1s,1s;
 }
+
+.titolo {
+    position: absolute;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: -850px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: inline;
+    border-right: 4px solid #000000;
+    animation: blink 1s infinite;
+    padding-right: none;
+}
+@keyframes blink{
+    50%{
+        border-right: none;
+    }
+}
